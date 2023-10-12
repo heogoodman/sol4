@@ -31,7 +31,7 @@ public class MyRunner implements ApplicationRunner {
         System.out.println(name);
         System.out.println(age);
         System.out.println(fullName);
-
+        System.out.println("ddd");
         System.out.println("VM Argument foo = " + args.containsOption("foo"));
         System.out.println("Program Argument bar = " + args.containsOption("bar"));
 
